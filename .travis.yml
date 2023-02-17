@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t front -f Dockerfile.dev .
+  - docker build -t 78987898/devops-front -f Dockerfile.dev .
 
 script:
-  - docker run front npm run test -- --coverage
+  - docker run 78987898/devops-front npm run test -- --coverage
