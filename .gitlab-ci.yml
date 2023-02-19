@@ -1,0 +1,15 @@
+stages:
+  - build
+  - test
+
+build front:
+  image: alpine
+  stage: build
+  script:
+    - echo "hi build"
+
+test front:
+  image: alpine
+  stage: test
+  script:
+    - echo "hi test"
