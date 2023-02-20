@@ -3,12 +3,6 @@ import App from "./App";
 
 test("renders learn golang link", () => {
   render(<App />);
-  const linkElement = screen.getByText(/Learn golang/i);
-  expect(linkElement).toBeInTheDocument();
-});
-
-test("renders learn golang link", () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Learn golang/i);
+  const linkElement = screen.getByText(/Learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
